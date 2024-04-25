@@ -1,0 +1,139 @@
+body{
+
+    background-image: url(fondo.jpeg);
+}
+
+header{
+    background-color: navy; 
+    color: beige; font-size: 35px; text-align: center;
+   
+}
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .menu{
+    font-size: 25px;
+     color:black;
+     padding: 1px;
+     display: inline-block;
+     text-decoration: none; 
+     font-weight: bold;
+     font-family: "Anton", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+   .menu:hover{
+     background-color:cornflowerblue; color:olive;
+ }
+ nav{
+    background-color:cornflowerblue; padding: 10px; display: flex; justify-content:space-between;
+}
+@media(max-width:600px){ 
+    nav {flex-direction: column;}
+}
+.caja2{
+    margin: 10px; display: flex;
+    }
+    .columnas2 {
+        color: #333;
+        margin: 10px 30px 20px 0px; margin-top: 0px;
+        padding: 5px;
+        
+    }
+h1 {
+    color:darkcyan; font-size: 80px; text-align: center; font-family:cursive;
+}
+h2{
+    color:firebrick; font-size: 35px; text-align: center; 
+}
+.uno{
+    margin: 0px 10px 30px 10px;
+     color:purple; font-size: 35px; text-align: center; background-color:lightsteelblue;
+    font-weight: bolder;  border-radius: 30px;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.dos{
+    color:white; font-size: 25px;  background-color: black;
+        font-family: "Saira Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align:justify; ; font-size: 20px;color:white; margin-bottom: 50px;
+        background-color:black;
+      
+}
+footer{
+    color:burlywood;
+    background-color:darkslategrey;
+    padding: 10px 80px 10px 80px;
+}
+.lentes{
+    text-align: center; color:beige; font-size: 25px; margin-top: 25px;
+}
+img{
+     margin-left: 30px; margin-right: 30px;
+}
+.chico{
+    margin-left: 65px;
+}
+.chicos{
+    margin-left: 15px;
+}
+.nose{
+    margin-left: 80px; margin-right: 50px;
+}
+a:link{
+    color:darkgreen;
+}
+a:hover{
+    color:darkblue;
+}
+
+.pie{
+    text-align: right;
+}
+.unos{
+    text-align: center; color: darkgoldenrod; background-color: darkblue;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.caja{
+    margin: 10px; display: flex;
+    }
+    .azul{
+        color:blueviolet; text-align:center; margin: 0%; background-color:lightblue;
+            font-family: "Zilla Slab", serif;
+            font-weight: 300;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 25px;
+    }
+    .columnas {
+        background-color: azure;
+        color: #333;
+        border: 1px solid blue;
+        margin: 30px; margin-top: 0px;
+        padding: 5px;
+        border-radius: 5%;
+        box-shadow: 10px 10px 3px cornflowerblue;
+    }
+    .eclipses{
+        color:black; text-align:justify; 
+    }
+    .enlace{
+        color: chocolate;
+        font-family: "Saira Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-weight: bold;
+    }

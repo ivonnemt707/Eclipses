@@ -1,0 +1,118 @@
+body{
+
+    background-image: url(fondo.jpeg);
+}
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 30%;
+    border-radius: 100%;
+  }
+  .silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .saira-condensed-light {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center; ; font-size: 20px;color:white; margin-bottom: 50px;
+    background-color:black;
+  }
+  
+header{
+    background-color: navy; 
+    color: beige; font-size: 35px; text-align: center;
+   
+}
+.menu{
+   font-size: 25px;
+    color:black;
+    padding: 1px;
+    display: inline-block;
+    text-decoration: none; 
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .menu:hover{
+    background-color:cornflowerblue; color:olive;
+}
+nav{
+    background-color:cornflowerblue; padding: 10px; display: flex; justify-content:space-between;
+}
+@media(max-width:600px){ 
+    nav {flex-direction: column;}
+}
+h1 {
+    color:lightskyblue; font-size: 90px; text-align: center; 
+}
+h2{
+    color:purple; font-size: 35px; text-align: center; margin: 50px 500px 10px 500px; background-color:darkgrey;
+    font-weight: bolder;
+    
+}
+
+img{
+     margin-left: 80px; margin-right: 80px; 
+}
+.enlace{
+    text-align: center; padding: 3px 20px 3px 20px; background-color:navy; 
+    margin-left: 80px; margin-right: 90px; color:aliceblue;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} 
+a:link{
+    color:gold;
+}
+a:hover{
+    color:cornflowerblue;
+}
+.pie{
+    text-align: right; 
+}
+footer{
+    color:burlywood;
+    background-color:darkslategrey;
+    padding: 10px 80px 10px 80px;
+}
+h3{
+    margin: 10px 500px 10px 500px; background-color:lightblue; color:black; text-align: center;
+}
+.lentes{
+    text-align: center; color:beige; font-size: 25px; margin-top: 25px;
+}
+.caja{
+margin: 10px; display: flex;
+}
+.eclipses{
+    color:blueviolet; text-align:center; margin: 0%; background-color:lightblue;
+        font-family: "Zilla Slab", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-weight: bolder;
+}
+.columnas {
+    background-color: azure;
+    color: #333;
+    border: 1px solid blue;
+    margin: 80px; margin-top: 0px;
+    padding: 5px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 3px cornflowerblue;
+    
+}
+.azul{
+    color:midnightblue; text-align: center;
+}
